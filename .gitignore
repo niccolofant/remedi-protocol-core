@@ -1,0 +1,16 @@
+# truffle
+build
+
+# typechain
+types
+
+# buidler
+artifacts
+cache
+
+# dependencies
+node_modules
+
+.env
+.env.local
+.env.development
