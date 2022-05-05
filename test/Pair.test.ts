@@ -22,8 +22,8 @@ contract("Pair", (accounts) => {
   // Accounts
   const owner = accounts[0];
   const lpProvider1 = accounts[1];
-  // const lpProvider2 = accounts[2];
-  // const swapper = accounts[3];
+  const lpProvider2 = accounts[2];
+  const swapper = accounts[3];
 
   beforeEach(async () => {
     tokenA = await ERC20Token.new("Token A", "TKA", { from: owner });
